@@ -43,7 +43,6 @@ Before you begin, ensure you have met the following requirements:
    ```
    MONGODB_URI=mongodb://localhost:27017/chat-app
    ```
-   Replace `your_jwt_secret_here` with a secure random string.
 
 2. Ensure MongoDB is running on your local machine or update the `MONGODB_URI` if using a remote database.
 
