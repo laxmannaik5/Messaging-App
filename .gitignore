@@ -1,0 +1,73 @@
+# Node modules
+/node_modules
+/server/node_modules
+/client/node_modules
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build files
+/server/build
+/client/build
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# dotenv environment variable files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Coverage directory used by tools like istanbul/jest
+coverage/
+
+# MongoDB local database storage
+/data/db
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# React build output
+client/build
+
+# Parcel cache (if using Parcel bundler)
+.cache/
+
+# Firebase cache (if using Firebase)
+.firebase/
+
+# macOS generated files
+*.DS_Store
+
+# Windows generated files
+Thumbs.db
+
+# npm global packages
+lib-cov
+*.lock
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
