@@ -42,7 +42,6 @@ Before you begin, ensure you have met the following requirements:
 1. Create a `.env` file in the `server` directory with the following content:
    ```
    MONGODB_URI=mongodb://localhost:27017/chat-app
-   JWT_SECRET=your_jwt_secret_here
    ```
    Replace `your_jwt_secret_here` with a secure random string.
 
